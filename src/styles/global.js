@@ -68,6 +68,10 @@ export default createGlobalStyle`
     padding: calc(5rem + var(--header-height)) 0;
   }
 
+  .CardBottom {
+    margin-bottom: 4.875rem;
+  }
+
   .margins {
     margin-left: 17rem;
     margin-right: 17rem;

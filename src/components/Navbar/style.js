@@ -4,7 +4,6 @@ export const HeaderContainer = styled.header`
   position: fixed;
   width: 100%;
   height: 6.25rem;
-  margin-top: 0.4rem;
 `
 
 export const NavBar = styled.nav`
