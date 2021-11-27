@@ -70,7 +70,15 @@ export default createGlobalStyle`
 
   .CardBottom {
     margin-bottom: 4.875rem;
+
+    @media (max-width: 800px) {
+      margin-bottom: 2rem;
+    }
   }
+  
+  .css-1kpz94o {
+    width: 90% !important;
+}
 
   .margins {
     margin-left: 17rem;

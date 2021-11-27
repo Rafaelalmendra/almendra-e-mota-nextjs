@@ -11,6 +11,13 @@ export const NavBar = styled.nav`
   align-items: center;
   justify-content: space-between;
   width: 100%;
+
+  @media (max-width: 768px) {
+    .logo {
+      margin-top: 1.2rem;
+      max-width: 50%;
+    }
+  }
 `
 
 export const UlContainer = styled.ul`

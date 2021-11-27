@@ -20,7 +20,7 @@ export default function DireitoTrabalhista () {
       <Card className="CardBottom" onClick={onOpen} >
         <Image 
           src={"/images/direito-trabalhista.svg"}
-          alt="Área de atuação"          
+          alt="Almendra e Mota - direito trabalhista imagem"
           width={425}
           height={209}
         />
@@ -31,12 +31,12 @@ export default function DireitoTrabalhista () {
       <Modal isOpen={isOpen} onClose={onClose} isCentered size="xl" >
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader color="black">DIREITO CIVIL E CONSUMIDOR</ModalHeader>
+          <ModalHeader color="black">DIREITO TRABALHISTA</ModalHeader>
           <ModalCloseButton color="black"/>
           <ModalBody
             mb="1rem"
             color="black"
-            fontSize="1.125rem"
+            fontSize="1rem"
             textAlign="justify"
           >
             <p>
@@ -62,7 +62,7 @@ export default function DireitoTrabalhista () {
               <br />
               - Para o empregado:
               <br />
-              a) Ajuizamento de ações trabalhistas voltadas para a cobrança dos direitos não pagosdurante a vigência do contrato de trabalho, tais como depósitos de FGTS, saldo de salário, férias, 13º, horas extras, aviso prévio;
+              a) Ajuizamento de ações trabalhistas voltadas para a cobrança dos direitos não pagos durante a vigência do contrato de trabalho, tais como depósitos de FGTS, saldo de salário, férias, 13º, horas extras, aviso prévio;
               <br />
               b) Ajuizamento de ação indenizatória em razão de acidente de trabalho, da ocorrência de danos morais e materiais, assédio moral, desvio de função, dentre outros.
               <br />

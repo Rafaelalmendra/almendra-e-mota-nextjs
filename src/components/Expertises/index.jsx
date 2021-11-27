@@ -1,9 +1,12 @@
 import DireitoCivil from './DireitoCivil';
 import DireitoTrabalhista from './DireitoTrabalhista';
-import { Container, CardContainer, Card } from './style';
+import DireitoTributario from './DireitoTributario';
+import DireitoPrevidenciario from './DireitoPrevidenciario';
+import DireitoEducacional from './DireitoEducacional';
+import SearaCriminal from './SearaCriminal';
+import { Container, CardContainer } from './style';
 
 export default function Expertises() {
-  
 
   return (
     <Container className="margins">
@@ -13,6 +16,10 @@ export default function Expertises() {
       <CardContainer>
         <DireitoCivil />
         <DireitoTrabalhista />
+        <DireitoTributario />
+        <DireitoPrevidenciario />
+        <DireitoEducacional />
+        <SearaCriminal />
       </CardContainer>
     </Container>
   )

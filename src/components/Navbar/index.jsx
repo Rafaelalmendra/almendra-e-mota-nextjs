@@ -60,12 +60,14 @@ export default function Navbar() {
   return (
     <HeaderContainer className={navbar ? "header active" : "header"}>
       <NavBar className="margins">
-        <Image 
-          src={"/images/logo.svg"}
-          alt="Logo Almendra e Mota"
-          width={192}
-          height={55}
-        />
+        <div className="logo">
+          <Image 
+            src={"/images/logo.svg"}
+            alt="Logo Almendra e Mota"
+            width={192}
+            height={55}
+          />
+        </div>
 
         <MenuMain>
           <UlContainer className="desktop">

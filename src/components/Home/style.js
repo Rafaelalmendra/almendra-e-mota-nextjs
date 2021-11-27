@@ -16,8 +16,8 @@ export const Container = styled.div`
   }
 
   h1 {
-    font-size: 3.75rem;
-    font-weight: 400;
+    font-size: 3.175rem;
+    font-weight: 500;
     margin-bottom: 0.813rem;
   }
 
@@ -46,7 +46,7 @@ export const Container = styled.div`
     transition: filter 0.2s ease-in-out;
 
     &:hover {
-      filter: brightness(0.8);
+      filter: brightness(0.9);
     }
   }
 
@@ -71,11 +71,12 @@ export const Container = styled.div`
   @media (max-width: 575.98px) {
     h1 {
       font-size: 2.275rem;
+      max-width: 16rem;
     }
 
     p {
       font-size: 1.15rem;
-      max-width: 100%;
+      max-width: 24rem;
     }
 
     button {

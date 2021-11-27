@@ -3,6 +3,7 @@ import Head from 'next/head';
 import HomePage from '../components/Home';
 import Expertises from '../components/Expertises';
 import { } from "../styles/home";
+import About from '../components/About';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <HomePage />
       <Expertises />
+      <About />
     </>
   )
 };
