@@ -9,7 +9,7 @@ import { Container, CardContainer } from './style';
 export default function Expertises() {
 
   return (
-    <Container className="margins">
+    <Container className="margins" id="expertises">
       <h1>Áreas de atuação</h1>
       <p>Saiba mais sobre nossas áreas de atuação</p>
 

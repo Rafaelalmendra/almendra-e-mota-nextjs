@@ -24,12 +24,14 @@ export default createGlobalStyle`
   html {
     scroll-behavior: smooth;
 
-    @media (max-width: 1080px) {
-      font-size: 93.75%;
+    font-size: 88%;
+
+    @media (max-width: 1366px) {
+      font-size: 85%;
     }
-    
-    @media (max-width: 720px) {
-      font-size: 87.5%;
+
+    @media (max-width: 768px) {
+      font-size: 80%;
     }
   }
 
@@ -81,36 +83,36 @@ export default createGlobalStyle`
 }
 
   .margins {
-    margin-left: 17rem;
-    margin-right: 17rem;
+    margin-left: 21rem;
+    margin-right: 21rem;
   }
 
   //responsive
   @media (max-width: 1680px) {
+    .margins {
+      margin-left: 14rem;
+      margin-right: 14rem;
+    }
+  }
+  
+  @media (max-width: 1366px) {
     .margins {
       margin-left: 10rem;
       margin-right: 10rem;
     }
   }
   
-  @media (max-width: 1366px) {
-    .margins {
-      margin-left: 6rem;
-      margin-right: 6rem;
-    }
-  }
-  
   @media (max-width: 1199.98px) {
     .margins {
-      margin-left: 2rem;
-      margin-right: 2rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
     }
   }
 
-  @media (max-width: 767.98px) {
+  @media (max-width: 800px) {
     .margins {
-      margin-left: 1.2rem;
-      margin-right: 1rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
     
     .desktop {

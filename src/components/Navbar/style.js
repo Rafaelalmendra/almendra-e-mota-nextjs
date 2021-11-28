@@ -65,7 +65,7 @@ export const MenuMain = styled.div`
 export const NavgationMobile = styled.div`
   display: none;
 
-  @media (max-width: 767.98px) { 
+  @media (max-width: 800px) { 
     display: flex;
   }
 `

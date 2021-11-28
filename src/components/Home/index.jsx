@@ -2,7 +2,7 @@ import { Container } from "./style"
 
 export default function HomePage() {
   return (
-    <Container>
+    <Container id="home">
       <div className="margins">
         <h1>Precisando de um advogado?</h1>
         <p>

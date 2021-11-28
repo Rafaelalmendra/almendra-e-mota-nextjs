@@ -38,7 +38,7 @@ export const Container = styled.div`
 
   @media (max-width: 575.98px) {
     h1 {
-      font-size: 2.275rem;
+      font-size: 2.475rem;
     }
 
     p {
@@ -54,7 +54,7 @@ export const CardContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   max-width: 70.938rem;
-  margin-bottom: 8.438rem;
+  margin-bottom: 4rem;
 
   @media (max-width: 991.98px) {
     flex-direction: column;
@@ -92,8 +92,8 @@ export const Card = styled.div`
   }
 
   @media (max-width: 575.98px) {
-    width: 19rem;
-    height: 21rem;
+    width: 25rem;
+    height: 23rem;
   }
 
   img {

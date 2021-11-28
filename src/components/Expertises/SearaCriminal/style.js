@@ -27,8 +27,8 @@ export const Card = styled.div`
   }
 
   @media (max-width: 575.98px) {
-    width: 19rem;
-    height: 22.4rem;
+    width: 25rem;
+    height: 23rem;
   }
 
   img {

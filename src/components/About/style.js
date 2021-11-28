@@ -39,7 +39,6 @@ export const Container = styled.div`
       }
 
       p {
-        max-width: 90%;
 
         font-size: 1rem;
         line-height: 2rem;
