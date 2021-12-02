@@ -5,6 +5,7 @@ export const Container = styled.div`
   background-image: url("/images/background-home.svg");
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 
   div {
     display: flex;

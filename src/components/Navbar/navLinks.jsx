@@ -22,10 +22,10 @@ export function NavLinks(props) {
           </li>
           <li></li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            <a href="#about">Sobre nós</a>
+            <a href="#about">A sociedade</a>
           </li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            <a href="#society">A sociedade</a>
+            <a href="#team">Nossa equipe</a>
           </li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
             <a href="#contact">Contato</a>

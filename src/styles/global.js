@@ -23,6 +23,7 @@ export default createGlobalStyle`
 
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 11rem;
 
     font-size: 88%;
 
@@ -59,6 +60,10 @@ export default createGlobalStyle`
     padding: 18px;
     z-index: 100;
     background: none;
+  }
+
+  .margin {
+    margin-right: 4rem;
   }
   
   .header.active {

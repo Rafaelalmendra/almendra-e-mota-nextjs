@@ -70,17 +70,12 @@ export const Card = styled.div`
   height: 25.438rem;
   cursor: pointer;
 
-  margin-left: 4rem;
   
   background: var(--white);
   
   border-radius: 4px;
   box-shadow: 0px 0px 29px -1px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease-in-out;
-
-  &:first-child, &:nth-child(3), &:nth-child(5) {
-    margin-left: 0;
-  }
 
   &:hover {
     transform: scale(1.05);

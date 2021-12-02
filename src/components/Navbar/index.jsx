@@ -1,8 +1,9 @@
-import { useState } from 'react'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
+import { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 
-import { NavLinks } from './navLinks'
+import { NavLinks } from './navLinks';
 import {
   Hamburguer,
   Close,
@@ -11,7 +12,7 @@ import {
   MenuMain,
   UlContainer,
   NavgationMobile
-} from './style'
+} from './style';
 
 export default function Navbar() {
   const [ open, setOpen ] = useState(false);
@@ -61,20 +62,24 @@ export default function Navbar() {
     <HeaderContainer className={navbar ? "header active" : "header"}>
       <NavBar className="margins">
         <div className="logo">
-          <Image 
-            src={"/images/logo.svg"}
-            alt="Logo Almendra e Mota"
-            width={192}
-            height={55}
-          />
+          <Link href="/">
+            <a>
+              <Image
+                src={"/images/logo.svg"}
+                alt="Logo Almendra e Mota"
+                width={192}
+                height={55}
+                />
+            </a>
+          </Link>
         </div>
 
         <MenuMain>
           <UlContainer className="desktop">
             <li><a href="#home">Home</a></li>
             <li><a href="#expertises">Áreas de atuação</a></li>
-            <li><a href="#about">Sobre nós</a></li>
-            <li><a href="#society">A sociedade</a></li>
+            <li><a href="#about">A sociedade</a></li>
+            <li><a href="#team">Nossa equipe</a></li>
             <li><a href="#contact">Contato</a></li>  
           </UlContainer>
 
@@ -87,4 +92,4 @@ export default function Navbar() {
       </NavBar>
     </HeaderContainer>
   )
-}
+};

@@ -43,7 +43,14 @@ export const CardContainer = styled.div`
 
   text-align: center;
   color: var(--black);
-  box-shadow: 0px -1px 29px rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
+  box-shadow: 0px -1px 29px rgba(0, 0, 0, 0.08);
+
+  @media (max-width: 575.98px) {
+    width: 22rem;
+    height: 29rem;
+  }
 
   h3 {
     font-size: 2rem;
@@ -62,6 +69,5 @@ export const CardContainer = styled.div`
     margin-left: 2.75rem;
     margin-right: 2.75rem;
     text-align: justify;
-
   }
 `
