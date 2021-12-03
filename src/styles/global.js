@@ -64,6 +64,10 @@ export default createGlobalStyle`
 
   .margin {
     margin-right: 4rem;
+
+    @media (max-width: 768px) {
+      margin-right: 0;
+    }
   }
   
   .header.active {

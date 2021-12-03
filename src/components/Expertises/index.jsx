@@ -14,12 +14,12 @@ export default function Expertises() {
       <p data-aos="fade-up">Saiba mais sobre nossas áreas de atuação</p>
 
       <CardContainer>
-        <div data-aos="fade-right" className="margin"><DireitoCivil /></div>
-        <div data-aos="fade-left"><DireitoTrabalhista /></div>
-        <div data-aos="fade-right" className="margin"><DireitoTributario /></div>
-        <div data-aos="fade-left"><DireitoPrevidenciario /></div>
-        <div data-aos="fade-right" className="margin"><DireitoEducacional /></div>
-        <div data-aos="fade-left"><SearaCriminal /></div>
+        <div data-aos="flip-right" className="margin"><DireitoCivil /></div>
+        <div data-aos="flip-left"><DireitoTrabalhista /></div>
+        <div data-aos="flip-right" className="margin"><DireitoTributario /></div>
+        <div data-aos="flip-left"><DireitoPrevidenciario /></div>
+        <div data-aos="flip-right" className="margin"><DireitoEducacional /></div>
+        <div data-aos="flip-left"><SearaCriminal /></div>
       </CardContainer>
     </Container>
   )

@@ -3,9 +3,11 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+import Navbar from '../components/Navbar';
+import Footer from "../components/Footer";
+
 import GlobalStyle from '../styles/global';
 import { theme } from "../styles/theme";
-import Navbar from '../components/Navbar';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function MyApp({ Component, pageProps }) {
@@ -18,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       <GlobalStyle />
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </ChakraProvider>
   )
 };

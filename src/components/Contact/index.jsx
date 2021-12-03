@@ -10,17 +10,17 @@ export default function Contact() {
     <Container id="contact">
       <ContainerAll className="margins">
         <ContainerInfo>
-          <p data-aos="fade-right">Contamos com uma equipe especializada de advogados. Nos envie sua dúvida que retornaremos imediatamente.</p>
+          <p data-aos="fade-up">Contamos com uma equipe especializada de advogados. Nos envie sua dúvida que retornaremos imediatamente.</p>
           <a 
             href="https://linktr.ee/almendraemota"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button data-aos="fade-right">Envie uma mensagem <i className="bi bi-whatsapp"></i></button>
+            <button data-aos="fade-up">Envie uma mensagem <i className="bi bi-whatsapp"></i></button>
           </a>
         </ContainerInfo>
 
-        <div data-aos="fade-left">
+        <div data-aos="fade-up">
           <ContainerForm>
             <p>Entre em contato</p>
             <form action="https://formsubmit.co/rafaelalmendra28@gmail.com" method="POST">
