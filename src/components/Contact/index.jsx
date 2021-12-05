@@ -29,7 +29,7 @@ export default function Contact() {
               <input type="text" name="nome" placeholder="Seu nome" required/>
               <input type="email" name="email" placeholder="Seu e-mail" required/>
               <input type="number" name="telefone" placeholder="Seu telefone (opcional)"/>
-              <textarea 
+              <textarea
                 name="Mensagem"
                 placeholder="Digite aqui sua mensagem..."
                 required
