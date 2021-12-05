@@ -5,7 +5,11 @@ export const Container = styled.div`
   background-image: url("/images/background-about.svg");
   background-attachment: fixed;
   background-size: cover;
-  
+
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+  }
+
   div {
     display: flex;
     justify-content: center;

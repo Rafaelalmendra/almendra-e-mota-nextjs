@@ -6,6 +6,10 @@ export const Container = styled.div`
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+  }
 `
 
 export const ContainerAll = styled.div`
