@@ -45,7 +45,7 @@ export const CardContainer = styled.div`
   color: var(--black);
 
   border-radius: 4px;
-  box-shadow: 0px -1px 29px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px -1px 29px rgba(0, 0, 0, 0.20);
 
   @media (max-width: 575.98px) {
     width: 22rem;

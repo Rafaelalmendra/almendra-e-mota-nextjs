@@ -55,6 +55,10 @@ export const ContainerInfo = styled.div`
 
     transition: filter 0.2s ease-in-out;
 
+    &:hover {
+      filter: brightness(0.9);
+    }
+
     @media (max-width: 1199.98px) {
       margin-bottom: 4rem;
     }
@@ -63,10 +67,6 @@ export const ContainerInfo = styled.div`
       width: 22rem;
       height: 3.875rem;
       font-size: 1.375rem;
-    }
-
-    &:hover {
-      filter: brightness(0.9);
     }
   }
 `

@@ -13,13 +13,13 @@ export default function Footer() {
       <Navigation>
         <p>Navegação</p>
         <ul>
-          <li>Home</li>
-          <li>Áreas de atuação</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#expertises">Áreas de atuação</a></li>
         </ul>
         <ul>
-          <li>Sobre nós</li>
-          <li>A sociedade</li>
-          <li>Contato</li>
+          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="#team">A sociedade</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </Navigation>
 
@@ -33,14 +33,20 @@ export default function Footer() {
 
       <Developer>
         <p>Desenvolvido por</p>
-        <div className="image">
-          <Image 
-            src={'/images/rafael-logo.svg'}
-            alt="developer"
-            width={46}
-            height={54}
-          />
-        </div>
+        <a 
+          href="https://rafaelalmendra.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="image">
+            <Image 
+              src={'/images/rafael-logo.svg'}
+              alt="developer"
+              width={46}
+              height={54}
+            />
+          </div>
+        </a>
       </Developer>
     </FooterContainer>
   )

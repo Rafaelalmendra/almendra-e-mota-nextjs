@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import GlobalStyle from '../styles/global';
 import { theme } from "../styles/theme";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import ScrollToTop from "../components/ScrollToTop";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
     <ChakraProvider theme={theme} >
       <GlobalStyle />
       <Navbar />
+      <ScrollToTop />
       <Component {...pageProps} />
       <Footer />
     </ChakraProvider>
