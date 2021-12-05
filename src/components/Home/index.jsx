@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <Container id="home">
       <div className="margins" data-aos="fade-up">
-        <h1>Precisando de um advogado?</h1>
+        <h1>Precisando de advogado?</h1>
         <p>
           Somos especialistas em direito Civil, Consumidor,
           Trabalhista, Tributário e Criminal.
