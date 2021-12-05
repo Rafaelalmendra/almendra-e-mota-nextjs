@@ -73,6 +73,8 @@ export const ContainerInfo = styled.div`
 
 export const ContainerForm = styled.div`
   display: flex;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   flex-direction: column;
   align-items: left;
 

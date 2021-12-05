@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
   display: flex;
   justify-content: space-between;
-  min-height: 20vh;
+  min-height: 15vh;
   color: var(--black);
 
   @media (max-width: 991.98px) {
@@ -15,7 +15,7 @@ export const FooterContainer = styled.footer`
 export const Navigation = styled.div`
   margin-top: 2.6rem;
 
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
 
   ul {
@@ -24,7 +24,7 @@ export const Navigation = styled.div`
 
     margin-top: 0.4rem;
 
-    font-size: 1.4rem;
+    font-size: 1.125rem;
     font-weight: 400;
     
 
@@ -42,12 +42,12 @@ export const Navigation = styled.div`
 export const Contact = styled.div`
   margin-top: 2.6rem;
 
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
 
   span {
     margin-top: 0.4rem;
-    font-size: 1.4rem;
+    font-size: 1.125rem;
     font-weight: 400;
 
     @media (max-width: 991.98px) {
@@ -60,7 +60,7 @@ export const Developer = styled.div`
   margin-top: 2.6rem;
   margin-bottom: 2.6rem;
 
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
 
   .image {

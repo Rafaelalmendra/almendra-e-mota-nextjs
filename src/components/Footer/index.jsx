@@ -42,8 +42,8 @@ export default function Footer() {
             <Image 
               src={'/images/rafael-logo.svg'}
               alt="developer"
-              width={46}
-              height={54}
+              width={40}
+              height={40}
             />
           </div>
         </a>
