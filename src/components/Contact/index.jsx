@@ -24,7 +24,7 @@ export default function Contact() {
           <ContainerForm>
             <p>Entre em contato</p>
             <form action="https://formsubmit.co/rafaelalmendra28@gmail.com" method="POST">
-              <input type="hidden" name="_next" value="http://localhost:3000/Sucess" />
+              <input type="hidden" name="_next" value="https://objective-wiles-2495f3.netlify.app/Sucess" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="text" name="nome" placeholder="Seu nome" required/>
               <input type="email" name="email" placeholder="Seu e-mail" required/>
