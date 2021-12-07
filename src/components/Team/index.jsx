@@ -10,7 +10,7 @@ export default function Team() {
         <div data-aos="flip-left">
           <Card 
             name="Gabriel Almendra"
-            description="Graduado em Direito pelo Centro Universitário UniFacid - Faculdade Integral Diferencial, Pós-Graduado em Direito Civil e Processual Civil pela instituição de ensino UNINOVAFAPI, Pós-Graduado em Direito Constitucional pela ESAPI, advogado inscrito na OAB/PI sob nº 18.698."
+            description="Graduado em Direito pelo Centro Universitário UNIFACID; Pós-Graduado em Direito Civil e Processual Civil pelo UNINOVAFAPI; Pós-Graduado em Direito Constitucional e Administrativo pela Escola Superior da Advocacia-PI; Pós-graduando em Direito Previdenciário e Trabalhista pela Escola Superior da Advocacia-PI; Advogado inscrito na OAB/PI sob nº 18.698."
           />
         </div>
 
