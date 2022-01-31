@@ -15,20 +15,25 @@ export function NavLinks(props) {
         >
         <UlLinks>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            <a href="#home">Home</a>
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <a href="/#home">Home</a>
           </li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            <a href="#expertises">Áreas de atuação</a>
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <a href="/#expertises">Áreas de atuação</a>
           </li>
           <li></li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            <a href="#about">A sociedade</a>
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <a href="/#about">A sociedade</a>
           </li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            <a href="#team">Nossa equipe</a>
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <a href="/#team">Nossa equipe</a>
           </li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            <a href="#contact">Contato</a>
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <a href="/#contact">Contato</a>
           </li> 
         </UlLinks>
       </motion.div>

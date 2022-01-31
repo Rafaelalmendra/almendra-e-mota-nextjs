@@ -26,8 +26,8 @@ export default function Contact() {
             <form action="https://formsubmit.co/almendraemota.adv@gmail.com" method="POST">
               <input type="hidden" name="_next" value="almendraemota.com/Sucess" />
               <input type="hidden" name="_captcha" value="false" />
-              <input type="text" name="nome" placeholder="Seu nome" required/>
-              <input type="email" name="email" placeholder="Seu e-mail" required/>
+              <input type="text" name="nome" placeholder="Seu nome" required />
+              <input type="email" name="email" placeholder="Seu e-mail" required />
               <input type="number" name="telefone" placeholder="Seu telefone (opcional)"/>
               <textarea
                 name="Mensagem"

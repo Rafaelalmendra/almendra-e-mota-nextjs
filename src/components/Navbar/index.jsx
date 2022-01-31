@@ -76,11 +76,16 @@ export default function Navbar() {
 
         <MenuMain>
           <UlContainer className="desktop">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#expertises">Áreas de atuação</a></li>
-            <li><a href="#about">A sociedade</a></li>
-            <li><a href="#team">Nossa equipe</a></li>
-            <li><a href="#contact">Contato</a></li>  
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <li><a href="/#home">Home</a></li>
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <li><a href="/#expertises">Áreas de atuação</a></li>
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <li><a href="/#about">A sociedade</a></li>
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <li><a href="/#team">Nossa equipe</a></li>
+            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
+            <li><a href="/#contact">Contato</a></li>  
           </UlContainer>
 
           {/* menu mobile */}

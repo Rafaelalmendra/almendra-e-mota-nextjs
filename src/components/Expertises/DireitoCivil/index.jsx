@@ -9,7 +9,7 @@ import {
   ModalCloseButton,
   Box,
   useDisclosure
-} from "@chakra-ui/react"
+} from "@chakra-ui/react";
 
 import { Card } from '../style';
 

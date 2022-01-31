@@ -70,7 +70,6 @@ export const Card = styled.div`
   height: 25.438rem;
   cursor: pointer;
 
-  
   background: var(--white);
   
   border-radius: 4px;
