@@ -76,16 +76,13 @@ export default function Navbar() {
 
         <MenuMain>
           <UlContainer className="desktop">
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <li><a href="/#home">Home</a></li>
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <li><a href="/#expertises">Áreas de atuação</a></li>
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <li><a href="/#about">A sociedade</a></li>
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <li><a href="/#team">Nossa equipe</a></li>
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <li><a href="/#contact">Contato</a></li>  
+            <li><Link href="/#home"><a>Home</a></Link></li>
+            <li><Link href="/#expertises"><a>Áreas de atuação</a></Link></li>
+            <li><Link href="/#about"><a>A sociedade</a></Link></li>
+            <li><Link href="/#team"><a>Nossa equipe</a></Link></li>
+            <li><Link href="/#contact"><a>Contato</a></Link></li>
+            {/*eslint-disable-next-line @next/next/link-passhref*/}
+            <li><Link href="/fies"><span className="fies">Fies</span></Link></li>
           </UlContainer>
 
           {/* menu mobile */}

@@ -56,6 +56,24 @@ export const UlContainer = styled.ul`
       width: 100%;
     }
   }
+
+  .fies {
+    padding: 0.875rem 2.875rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--white);
+
+    border-radius: 4px;
+    background: var(--green);
+    cursor: pointer;
+    transition: filter ease-in-out 0.2s;
+
+    :hover {
+      filter: brightness(0.9);
+    }
+  }
 `
 
 export const MenuMain = styled.div`
@@ -101,6 +119,24 @@ export const UlLinks = styled.div`
     text-transform: uppercase;
   
     gap: 2.313rem;
+  }
+
+  .fies {
+    padding: 0.875rem 2.875rem;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--white);
+
+    border-radius: 4px;
+    background: var(--green);
+    cursor: pointer;
+    transition: filter ease-in-out 0.2s;
+
+    :hover {
+      filter: brightness(0.9);
+    }
   }
 `
 

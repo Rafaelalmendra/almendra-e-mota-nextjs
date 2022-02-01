@@ -38,4 +38,18 @@ export const ModalContainer = styled.div`
       filter: brightness(0.9);
     }
   }
+
+  @media (max-width: 812px) {
+    width: 22rem;
+
+    h2 {
+      font-size: 1.4rem;
+    }
+
+    button {
+      width: 17rem;
+      height: 3.8rem;
+      font-size: 1.3rem;
+    }
+  }
 `

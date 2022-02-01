@@ -1,7 +1,8 @@
-import { motion } from 'framer-motion'
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 //imports-components-and-styles
-import { NavLinksContainer, UlLinks } from './style.js'
+import { NavLinksContainer, UlLinks } from './style.js';
 
 export function NavLinks(props) {
   return (
@@ -12,31 +13,45 @@ export function NavLinks(props) {
         transition={{
           stiffness: 200 ,
         }}
-        >
+      >
         <UlLinks>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <a href="/#home">Home</a>
+            <Link href="/#home">
+              <a>Home</a>
+            </Link>
           </li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <a href="/#expertises">Áreas de atuação</a>
+            <Link href="/#expertises">
+              <a>Áreas de atuação</a>
+            </Link>
           </li>
           <li></li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <a href="/#about">A sociedade</a>
+            <Link href="/#about">
+              <a>A sociedade</a>
+            </Link>
           </li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <a href="/#team">Nossa equipe</a>
+            <Link href="/#team">
+              <a>Nossa equipe</a>
+            </Link>
           </li>
           <li onClick={() => props.isMenu && props.closeMenu()}>
-            {/*eslint-disable-next-line @next/next/no-html-link-for-pages*/}
-            <a href="/#contact">Contato</a>
+            <Link href="/#contact">
+              <a>Contato</a>
+            </Link>
+          </li>
+          <li 
+            style={{ marginTop: '1.5rem' }}
+            onClick={() => props.isMenu && props.closeMenu()}
+          >
+            {/*eslint-disable-next-line @next/next/link-passhref*/}
+            <Link href="/fies">
+              <span className="fies">Fies</span>
+            </Link>
           </li> 
         </UlLinks>
       </motion.div>
     </NavLinksContainer>
-  )
-}
+  );
+};

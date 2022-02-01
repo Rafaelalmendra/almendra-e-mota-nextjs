@@ -6,7 +6,7 @@ export default function HomePage() {
       <div className="margins" data-aos="fade-up">
         <h1>Precisando de Advogado?</h1>
         <p>
-          Somos especialistas em direito Civil, Consumidor,
+          Somos especialistas em Direito Educacional, Consumidor,
           Trabalhista, Tributário e Criminal.
         </p>
         <a 

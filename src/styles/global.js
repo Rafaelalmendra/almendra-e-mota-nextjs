@@ -95,6 +95,7 @@ export default createGlobalStyle`
     margin-left: 21rem;
     margin-right: 21rem;
   }
+  
 
   //responsive
   @media (max-width: 1680px) {
