@@ -7,7 +7,7 @@ export default function Sucess() {
   return (
     <>
       <Head>
-          <title>Formulario enviado com Sucesso | Almendra & Mota</title>
+          <title>Formulario enviado com sucesso | Almendra & Mota</title>
         </Head>
       <Container>
         <ContainerMargins className="margins">

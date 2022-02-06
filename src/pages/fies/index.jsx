@@ -1,8 +1,12 @@
+import Head from 'next/head';
 import { Container, TextContainer } from '../../styles/fies';
 
 export default function Fies() {
   return (
     <Container>
+       <Head>
+        <title>Almendra & Mota | FIES</title>
+      </Head>
       <TextContainer>
       <h1>TRANSFERÊNCIA DO FIES PARA O CURSO DE MEDICINA</h1>
       <p>
