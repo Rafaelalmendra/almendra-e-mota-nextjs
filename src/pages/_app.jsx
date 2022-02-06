@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <Script
           strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=UA-219615209-2`}
+          src={`https://www.googletagmanager.com/gtag/js?id=UA-219615209-1`}
         />
 
         <Script id="tag" strategy="lazyOnload">
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-219615209-2', {
+            gtag('config', 'UA-219615209-1', {
               page_path: window.location.pathname,
             });
                 `}
