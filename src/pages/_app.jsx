@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <Script
           strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=UA-219615209-1`}
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
 
         <Script id="tag" strategy="lazyOnload">
@@ -30,10 +30,10 @@ function MyApp({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-219615209-1', {
+            gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}, {
               page_path: window.location.pathname,
             });
-                `}
+          `}
         </Script>
       </>
       <ChakraProvider theme={theme} >
@@ -43,8 +43,8 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         <Footer />
       </ChakraProvider>
-  </>
-  )
+    </>
+  );
 };
 
 export default MyApp;
